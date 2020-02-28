@@ -44,6 +44,8 @@ div.wrapper{}
 div.container{
     width: 960px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.intro{
