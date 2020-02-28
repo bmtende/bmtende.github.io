@@ -15,12 +15,12 @@ html, body {
   }
   
   .header h1{
-    color: rbg(#FFFC91);
+    color: (#FFFC91);
 }
 
 .header{
     width: 100%;
-    background-color: rbg(#5713BD);
+    background: rbg(#5713BD);
     text-align: left;
     margin-bottom: 15px;
 }
