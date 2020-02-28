@@ -24,7 +24,8 @@ div.header{
     margin: 0;
     text-align: left;
     margin-bottom: 15px;
-    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
 }
 .header img{
     display: block;
