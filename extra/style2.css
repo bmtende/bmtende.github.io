@@ -32,8 +32,8 @@ div.header{
     margin-bottom: 15px;
     display: flex;
     flex-flow: row wrap;
-    border-left: 600rem solid indigo;
-    border-right: 600rem solid indigo;
+    border-left: 6rem solid indigo;
+    border-right: 6rem solid indigo;
 }
 .header img{
     display: block;
