@@ -6,13 +6,15 @@
     margin-bottom: 15px;
 }
 
-h1{
+.header h1{
     color: rbg(#FFFC91);
 }
 
 .header img{
     justify-content: left;
 }
+
+
 /*
 
 .wrapper{

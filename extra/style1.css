@@ -8,10 +8,11 @@
 h1{
     color: rbg(#FFFC91);
 }
-/*
+
 .header img{
-    ;
+    justify-content: left;
 }
+/*
 
 
 .wrapper{
