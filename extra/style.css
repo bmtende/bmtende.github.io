@@ -1,5 +1,6 @@
-body{
+html, body{
     margin: 0 -9999rem;
+    overflow-x: hidden;
 }
 .header{
     background-color: rbg(#5713BD);
