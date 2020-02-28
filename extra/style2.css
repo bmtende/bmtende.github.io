@@ -33,6 +33,7 @@ div.header{
 .header img{
     display: block;
     height: 60px;
+    border-radius: 4px;
    /* padding-top: 20.15px;*/
 }
 /*
