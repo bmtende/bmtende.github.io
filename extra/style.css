@@ -3,9 +3,10 @@ html, body{
     overflow-x: hidden;
 }
 .header{
-    background-color: rbg(#5713BD);
-    flex-flow: row wrap;
     width: 100%;
+    background-color: rbg(#5713BD);
+    height: 100px;
+    flex-flow: row wrap;
     text-align: left;
     margin-bottom: 15px;
 }
@@ -17,17 +18,13 @@ h1{
 .header img{
     ;
 }
-*/
+
 
 .wrapper{
-    width: 80%;
-    max-width: 24em;
-    margin: 0 auto;
-    padding: 0.25em 0.625em;
 
 }
 
-/*
+
 .container{
 
 }
