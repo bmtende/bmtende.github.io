@@ -63,7 +63,7 @@ div.main{
 }
 
 h2{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 div.jobtitle{
     font-family: Arial, Helvetica, sans-serif;
@@ -73,7 +73,10 @@ div.jobtitle{
     margin-bottom: 2px;
     letter-spacing: 0.02rem;
 }
-/*
-div.jobdesc{}
-.rep{}
-*/
+
+div.jobdesc{
+    font-size: 1rem;
+}
+.rep li{
+    font-size: 1rem;
+}
