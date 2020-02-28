@@ -16,7 +16,7 @@ div{
 
 h1{
     font-size: 7rem;
-    text-align: center;
+    text-align: left center;
     flex: 5;
     color: lightyellow;
 }
