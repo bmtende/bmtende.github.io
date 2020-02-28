@@ -32,8 +32,8 @@ div.wrapper{}
 
 div.container{
     width: 960px;
+    justify-content: center;
 }
-
 
 div.intro{
     background-color:lightyellow;
