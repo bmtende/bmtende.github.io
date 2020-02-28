@@ -27,6 +27,7 @@ div.header{
     flex: 1;
 }
 .header img{
+    display: block;
     flex: 1;
     object-fit: contain;
 }
