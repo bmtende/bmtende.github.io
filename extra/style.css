@@ -1,5 +1,7 @@
 /* setup */
-
+body {
+    padding: 0;
+}
 
 
 /* typography */
@@ -19,6 +21,16 @@
 
 /* Content*/
 
+.intro{
+    flex: 4;
+}
+.intro img{
+    flex 4;
+}
+
+.main{
+    flex: 2;
+}
 .intro, .main{
     width: 960px;
     display: flex;
