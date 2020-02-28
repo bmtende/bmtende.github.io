@@ -1,9 +1,25 @@
-div{
+/* setup */
 
-}
+
+
+/* typography */
+
+
+
+/* Header */
+
 .header{
     background-color: rbg(#5713BD);
     color: rbg(#FFFC91);
     width: 100%;
-    
+    text-align: left;
+
 }
+
+/* Intro & Main*/
+
+
+
+
+
+/* Main */
