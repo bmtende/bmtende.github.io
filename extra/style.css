@@ -17,12 +17,13 @@
 
 }
 
-/* Intro & Main*/
+/* Content*/
 
 .intro, .main{
     width: 960px;
+    display: flex;
 }
 
 
 
-/* Main */
+
