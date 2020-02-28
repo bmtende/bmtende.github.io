@@ -1,3 +1,6 @@
+body{
+    margin: 0 -9999rem;
+}
 .header{
     background-color: rbg(#5713BD);
     flex-flow: row wrap;
