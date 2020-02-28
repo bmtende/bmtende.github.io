@@ -34,7 +34,6 @@ div.header{
 .header img{
     display: block;
     height: 100px;
-    border-radius: 4px;
     flex-flow: row wrap;
    /* padding-top: 20.15px;*/
 }
