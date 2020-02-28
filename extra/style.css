@@ -5,7 +5,6 @@ html, body{
 .header{
     width: 100%;
     background-color: rbg(#5713BD);
-    height: 100px;
     flex-flow: row wrap;
     text-align: left;
     margin-bottom: 15px;
