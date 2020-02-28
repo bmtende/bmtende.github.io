@@ -28,7 +28,6 @@ div.header{
 }
 .header img{
     display: block;
-    flex: 1;
     height: 60px;
     padding-top: 20.15px;
     object-fit: contain;
