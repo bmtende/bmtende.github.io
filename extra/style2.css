@@ -37,11 +37,13 @@ div.container{
 
 div.intro{
     background-color:lightyellow;
+    width: 700px;
     margin: 0 auto;
 }
 
 div.main{
     background-color: lightyellow;
+    width: 700px;
     margin: 0 auto;
 }
 div.jobtitle{
