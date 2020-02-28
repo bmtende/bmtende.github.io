@@ -28,9 +28,13 @@ div.header{
 /*
 
 div.wrapper{}
-div.container{}
-
 */ 
+
+div.container{
+    width: 960px;
+}
+
+
 div.intro{
     background-color:lightyellow;
 }
