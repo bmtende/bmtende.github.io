@@ -38,13 +38,11 @@ div.container{
 div.intro{
     background-color:lightyellow;
     margin: 0 auto;
-    flex-direction: row;
 }
 
 div.main{
     background-color: lightyellow;
     margin: 0 auto;
-    flex-direction: row;
 }
 div.jobtitle{
     font-family: Arial, Helvetica, sans-serif;
