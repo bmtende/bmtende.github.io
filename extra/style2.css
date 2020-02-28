@@ -15,6 +15,7 @@ div{
 }
 
 h1{
+    flex: 5;
     color: lightyellow;
 }
 
