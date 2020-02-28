@@ -1,41 +1,51 @@
-/* setup */
-body {
-    padding: 0;
-}
-
-
-/* typography */
-
-
-
-/* Header */
-
 .header{
     background-color: rbg(#5713BD);
-    color: rbg(#FFFC91);
+    flex-flow: row wrap;
     width: 100%;
     text-align: left;
     margin-bottom: 15px;
+}
+
+h1{
+    color: rbg(#FFFC91);
+}
+/*
+.header img{
+    ;
+}
+
+.wrapper{
 
 }
 
-/* Content*/
+.container{
 
+}
+*/
 .intro{
-    flex: 4;
-}
-.intro img{
-    flex: 4;
-}
-
-.main{
-    flex: 2;
-}
-.intro, .main{
     width: 960px;
     display: flex;
 }
 
+.main{
+    width: 960px;
+    display: flex;
+}
 
+.jobtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+    letter-spacing: 0.02rem;
+}
+/*
+.jobdesc{
 
+}
 
+.rep{
+
+}
+*/
