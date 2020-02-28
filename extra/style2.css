@@ -54,6 +54,8 @@ div.intro{
 
 .intro img {
     border: 1px solid plum;
+    width: 700px;
+    margin: 0 auto;
 }
 
 div.main{
