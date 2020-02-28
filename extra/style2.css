@@ -17,9 +17,7 @@ div{
 h1{
     color: lightyellow;
 }
-.header img {
-    border: 1px solid plum;
-}
+
 div.header{
     background-color: indigo;
     width: 100%;
@@ -41,6 +39,10 @@ div.intro{
     background-color:lightyellow;
     width: 700px;
     margin: 0 auto;
+}
+
+.intro img {
+    border: 1px solid plum;
 }
 
 div.main{
