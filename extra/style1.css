@@ -20,7 +20,7 @@ html, body {
 
 .header{
     width: 100%;
-    background: rbg(#5713BD);
+    background: (#5713BD);
     text-align: left;
     margin-bottom: 15px;
 }
