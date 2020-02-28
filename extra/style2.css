@@ -1,7 +1,7 @@
 html{
     padding: 0;
     margin: 0;
-    background-color: palegreen;
+    background-color: lightyellow;
 }
 
 body{
@@ -15,11 +15,11 @@ div{
 }
 
 h1{
-    color: palegreen;
+    color: lightyellow;
 }
 
 div.header{
-    background-color: darkviolet;
+    background-color: indigo;
     width: 100%;
     margin: 0;
     text-align: left;
@@ -32,11 +32,11 @@ div.container{}
 
 */ 
 div.intro{
-    background-color: palegreen;
+    background-color:lightyellow;
 }
 
 div.main{
-    background-color: palegreen;
+    background-color: lightyellow;
 }
 div.jobtitle{
     font-family: Arial, Helvetica, sans-serif;
