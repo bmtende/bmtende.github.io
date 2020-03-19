@@ -245,5 +245,8 @@ const countries = [
   ]
   console.log("List of countries in the world", countries);
 
-  const newList = document.getElementById(".content");
-  newList.textContent = countries ;
+document.getElementById(".content").innerHTML = countries;
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById(".content").classList.add("contries");
+  });
+  
