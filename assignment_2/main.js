@@ -9,6 +9,7 @@ for(let i=1; i <= 5; i++){
     const newImage = document.createElement('img');
     newImage.setAttribute('src', 'Images/pic' + i + '.png');
     thumbBar.appendChild(newImage);
+    
 }
 
 
