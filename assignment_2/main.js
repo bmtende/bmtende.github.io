@@ -17,7 +17,7 @@ for(let i=1; i <= 5; i++){
 /* Wiring up the Darken/Lighten button */
 btn.onclick = function(){
     const newbtn = btn.getAttribute('class');
-    if(newbtn = 'dark'){
+    if(newbtn === 'dark'){
         btn.setAttribute('class','light');
         btn.textContent('Lighten');
         overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
