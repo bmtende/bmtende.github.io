@@ -10,9 +10,10 @@ body {
 
 .full-img {
   position: relative;
-  display: block;
+  display: table-cell;
   width: 640px;
   height: 480px;
+  vertical-align: middle;
 }
 
 .overlay {
