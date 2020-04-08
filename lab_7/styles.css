@@ -62,6 +62,10 @@ h3 {
   flex-wrap: nowrap;
 }
 
+#mapid { 
+  height: 180px; 
+}
+
 .instructions {
   padding: 0 25px;
 }
