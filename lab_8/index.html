@@ -20,8 +20,68 @@
       .then((data) => data.json()) // this is an "implicit return" - we're returning the results of the Fetch request to the next step.
         .then((data) => { // this is an explicit return. If I want my information to go further, I'll need to use the "return" keyword before the brackets close
           console.log(data);
+          const clEmptyData = data.filter((f)=> f.geocoded_column_1); 
+          const refined = clEmptyData.map((m) => ({
+            category: m.category,
+            name: m.name,
+            latlong: m.geocoded_column_1.coordinate,
+          }));
           // return data; // <- this will pass the data to the next "then" statement when I'm ready.
+          return refined
         })
+        .then((data) => {
+          return data.reduce((result, current) => {
+
+            if (!result[current.category]) {
+              result[current.category] =[];
+            }
+            result[current.category].push(current);
+            return result;
+          }, {});
+        })
+        window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	theme: "dark2",
+	exportFileName: "Doughnut Chart",
+	exportEnabled: true,
+	animationEnabled: true,
+	title:{
+		text: "Monthly Expense"
+	},
+	legend:{
+		cursor: "pointer",
+		itemclick: explodePie
+	},
+	data: [{
+		type: "doughnut",
+		innerRadius: 90,
+		showInLegend: true,
+		toolTipContent: "<b>{name}</b>: ${y} (#percent%)",
+		indexLabel: "{name} - #percent%",
+		dataPoints: [
+			{ y: 450, name: "Food" },
+			{ y: 120, name: "Insurance" },
+			{ y: 300, name: "Travelling" },
+			{ y: 800, name: "Housing" },
+			{ y: 150, name: "Education" },
+			{ y: 150, name: "Shopping"},
+			{ y: 250, name: "Others" }
+		]
+	}]
+});
+chart.render();
+
+function explodePie (e) {
+	if(typeof (e.dataSeries.dataPoints[e.dataPointIndex].exploded) === "undefined" || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
+		e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
+	} else {
+		e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
+	}
+	e.chart.render();
+}
+
+}
     </script>
   </body>
 </html>
