@@ -39,7 +39,9 @@
             return result;
           }, {});
         })
-        window.onload = function () {
+        .then((results) => {
+          consolelog(results);
+          window.onload = function () {
 
 var chart = new CanvasJS.Chart("chartContainer", {
 	theme: "dark2",
@@ -47,7 +49,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	exportEnabled: true,
 	animationEnabled: true,
 	title:{
-		text: "Monthly Expense"
+		text: "Let's Find Somewhere to Eat"
 	},
 	legend:{
 		cursor: "pointer",
@@ -82,6 +84,7 @@ function explodePie (e) {
 }
 
 }
+        })
     </script>
   </body>
 </html>
