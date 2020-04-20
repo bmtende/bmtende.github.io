@@ -19,6 +19,36 @@
       .then(res => res.json())
       .then(res => {
         // Here's where your chart code should go.
+        const chart = new CanvasJS.Chart("chartContainer", {
+            theme: "dark2",
+            exportFileName: "Doughnut Chart",
+            exportEnabled: true,
+            animationEnabled: true,
+            title: {
+              text: "Let's Find Somewhere to Eat"
+            },
+            legend: {
+              cursor: "pointer",
+              itemclick: explodePie
+            },
+            data: [{
+              type: "doughnut",
+              innerRadius: 90,
+              showInLegend: true,
+              toolTipContent: "<b>{name}</b>: ${y} (#percent%)",
+              indexLabel: "{name} - #percent%",
+              dataPoints: [
+                { y: 450, name: "Food" },
+                { y: 120, name: "Insurance" },
+                { y: 300, name: "Travelling" },
+                { y: 800, name: "Housing" },
+                { y: 150, name: "Education" },
+                { y: 150, name: "Shopping" },
+                { y: 250, name: "Others" }
+              ]
+            }]
+          });
+          chart.render();
       })
   </script>
 </body>
